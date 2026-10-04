@@ -22,7 +22,7 @@ A growing notebook for 3D printing across slicers and printers. It brings togeth
 
 | Record | Setup | Evidence | Outcome |
 |---|---|---|---|
-| [Sculpted figure lower body](prints/2026-10-04-figure-lower-body.md) | A1 · 0.4 mm · Generic PLA profile · 0.12 mm layers | Slicer-verified | Physical result pending |
+| [Sculpted figure lower body](prints/2026-10-04-figure-lower-body.md) | A1 · 0.4 mm · Generic PLA profile · 0.12 mm layers | Slicer-verified + user report | Failure reported; diagnosis pending |
 
 The first entry records a completed slice, not a successful physical print. There are currently **no print-verified recipes** in this notebook.
 

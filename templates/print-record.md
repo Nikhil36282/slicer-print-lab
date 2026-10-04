@@ -35,3 +35,11 @@ Record actual time, adhesion, stability, surface finish, support removal, damage
 ## Next experiment
 
 State the evidence, targeted change, and expected improvement. Record the result of the comparison before treating it as a confirmed improvement.
+
+## Failure and retry log
+
+| Attempt | Observation / evidence | Suspected cause and alternatives | Targeted change | Physical outcome | Conclusion |
+|---|---|---|---|---|---|
+| 1 | | | | Pending | Unconfirmed |
+
+Record failure location and layer/height, support versus model movement, support/interface/overhang speeds, acceleration, and any live speed-mode changes. Link each attempt to its local project version without publishing private paths. A suspected cause becomes confirmed only when physical evidence supports it.

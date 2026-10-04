@@ -46,6 +46,16 @@ Use the installed slicer's meaning of threshold angle; angle conventions differ 
 
 Retain normal printer speeds where suitable; selectively slow outer walls, small perimeters, overhangs, and tall fragile sections when needed. Treat glossy surface consistency, mechanical strength, and decorative detail as different objectives. A smaller nozzle may improve tiny features, but a software profile change is not a physical nozzle swap.
 
+## Review speed and support stability
+
+Before delivering a complex supported part, review support speed, support interface speed, overhang slowdown, small perimeters, outer walls, and acceleration. Read the current values and object overrides; do not assume a Fine layer preset also uses gentle speeds. Inspect Speed colors at support bases, narrow branches, interfaces, and the model immediately above supports. Distinguish printing the support from printing the supported surface: each has separate speed controls.
+
+For tall narrow parts on the A1, assess bed-motion wobble and nozzle collisions alongside speed. Strengthen anchoring or reconsider orientation when evidence calls for it; slower printing cannot repair detached support or missing geometry. Change only the controls relevant to the observed problem, preserve the baseline, and report the time tradeoff. Candidate speeds are experiments, not validated recipes.
+
+For an already running print, slicer edits affect only a newly sliced job. A live speed mode changes the overall print, not just supports. Inspect current device state and obtain a specific instruction before changing a live job. If support has collapsed, explain that slowdown cannot reconstruct it; do not silently stop or restart the printer.
+
+When troubleshooting or planning a retry, use [the failure log](references/failure-log.md) to separate observations, hypotheses, trials, and confirmed fixes.
+
 ## Verify the slice and saved project
 
 Commit edits by leaving the field before slicing. Confirm the intended value changed; accessibility field IDs/order can change between tabs and may be mislabeled. Refresh after each UI action. Inspect object overrides because global edits may not apply to every part.

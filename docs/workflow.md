@@ -14,6 +14,12 @@ Compare bed contact, height, support scars, support removal, and layer-direction
 
 Choose detail and shell thickness for the part. Add supports where they are needed and accessible. Set adhesion for the footprint. Retain calibrated filament settings unless a specific problem calls for a change. For the A1 in Bambu Studio, see the [skill](../skills/bambu-a1-print-quality/SKILL.md) for decision criteria and candidate PLA settings.
 
+## Review speeds and support stability
+
+Record current support, interface, overhang, small-perimeter and outer-wall speeds, plus acceleration and object overrides. A fine layer preset does not establish suitable speeds for fragile supports. Inspect both Line Type and Speed previews at critical layers. Check anchoring, wobble and potential nozzle collisions alongside speed.
+
+For a risky long print, save a baseline and use a small representative trial where practical. Change a targeted group of settings and record the time tradeoff. Live slowdown affects the whole running print; changing slicer settings requires a new slice.
+
 ## Inspect the slice
 
 Check the first layer, support bases, critical overhangs, interfaces, thin features, connectors, and trapped support. Read the actual time/material estimate. Confirm settings are saved and object overrides do not defeat intended changes.

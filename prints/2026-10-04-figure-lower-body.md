@@ -1,6 +1,6 @@
 # Sculpted figure lower body · 2026-10-04
 
-**Status: Slicer-verified — physical result pending.**
+**Status: Slicer-verified; user-reported print failure — diagnosis pending.**
 
 ## Part and objective
 
@@ -58,3 +58,9 @@ The displayed total included preparation and timelapse overhead. Actual duration
 ## After the print
 
 Record bed adhesion, any wobble or collision, support removal force, boot undersides, clothing detail, connector fit, actual time, and filament brand. Add photographs only after checking that they are suitable for public sharing. Update the evidence level after inspecting the result.
+
+## User report and planned retry
+
+The user reported that the active print appeared too fast and was failing in an area requiring support. No failure photo, failure height, actual speeds, or completed retry result has been supplied. Excessive speed is a hypothesis; support adhesion, wobble, nozzle contact, and unsupported geometry remain alternatives.
+
+Review support and interface speeds separately from the model overhang speeds, then inspect support anchoring and critical layers. Preserve the original project and document a targeted slower trial. Suggested speed changes and Silent mode have not been verified as applied or successful. No successful physical print or confirmed fix is recorded.
