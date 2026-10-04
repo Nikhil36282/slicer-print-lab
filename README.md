@@ -1,6 +1,6 @@
 <div align="center">
 
-![Slicer Print Lab](assets/banner.svg?v=2)
+![Slicer Print Lab](assets/slicer-banner.svg)
 
 **Better prints through careful preparation and real results.**
 
