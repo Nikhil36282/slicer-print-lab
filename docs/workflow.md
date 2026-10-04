@@ -1,5 +1,7 @@
 # From model to a useful print record
 
+Use this shared workflow with the current slicer and printer. The existing Codex skill is specific to Bambu Studio and the A1; add separate skills for other tools as they are tested.
+
 ## Understand the part
 
 Confirm the physical nozzle, material, size, and plate. Identify visible faces, assembly fits, thin details, and any mechanical loads. Inspect the geometry and slicer warnings before choosing a process.
@@ -10,7 +12,7 @@ Compare bed contact, height, support scars, support removal, and layer-direction
 
 ## Tune from a compatible preset
 
-Choose detail and shell thickness for the part. Add supports where they are needed and accessible. Set adhesion for the footprint. Retain calibrated filament settings unless a specific problem calls for a change. See the [skill](../skills/bambu-a1-print-quality/SKILL.md) for decision criteria and candidate PLA settings.
+Choose detail and shell thickness for the part. Add supports where they are needed and accessible. Set adhesion for the footprint. Retain calibrated filament settings unless a specific problem calls for a change. For the A1 in Bambu Studio, see the [skill](../skills/bambu-a1-print-quality/SKILL.md) for decision criteria and candidate PLA settings.
 
 ## Inspect the slice
 

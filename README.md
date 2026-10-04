@@ -1,6 +1,6 @@
 <div align="center">
 
-![Bambu A1 Print Lab](assets/banner.svg)
+![Slicer Print Lab](assets/banner.svg)
 
 **Better prints through careful preparation and real results.**
 
@@ -8,12 +8,12 @@
 
 </div>
 
-A growing notebook for preparing complicated models in Bambu Studio on a **Bambu Lab A1**. It brings together a reusable Codex skill, recorded settings, and observations from actual prints so that each successful experiment improves the next one.
+A growing notebook for 3D printing across slicers and printers. It brings together reusable workflows, Codex skills, recorded settings, and observations from actual prints so that each successful experiment improves the next one. The first workflow covers **Bambu Studio and the Bambu Lab A1**; future entries can cover other slicers and machines.
 
 ## Start here
 
-1. Open your model in Bambu Studio and confirm the printer, physical nozzle, material, and build plate.
-2. Use the [preparation workflow](docs/workflow.md), or ask Codex: **“Use $bambu-a1-print-quality to prepare this model.”**
+1. Open your model in the appropriate slicer and confirm the printer, physical nozzle, material, and build plate.
+2. Use the [preparation workflow](docs/workflow.md), or, for the A1 in Bambu Studio, ask Codex: **“Use $bambu-a1-print-quality to prepare this model.”**
 3. Inspect the slice, save the local 3MF, and review the estimated time and material.
 4. After printing, use the [print record template](templates/print-record.md) to capture what worked and what needs changing.
 5. Commit the record and relevant settings. Promote a result to **print-verified** only after inspecting the physical print.
@@ -30,13 +30,13 @@ The first entry records a completed slice, not a successful physical print. Ther
 
 | Folder | Purpose |
 |---|---|
-| [`skills/`](skills/bambu-a1-print-quality/SKILL.md) | Reusable instructions for Codex and Bambu Studio |
+| [`skills/`](skills/bambu-a1-print-quality/SKILL.md) | Reusable Codex instructions organized by slicer and printer |
 | [`prints/`](prints/README.md) | Print decisions, observations, failures, and improvements |
 | [`settings/`](settings/README.md) | Small, readable settings snapshots linked to records |
 | [`docs/`](docs/workflow.md) | Preparation workflow and curated resources |
 | [`templates/`](templates/print-record.md) | A consistent way to record new experiments |
 
-## Use the skill
+## Use the A1 skill
 
 Copy `skills/bambu-a1-print-quality/` into your Codex skills directory, usually `~/.codex/skills/`. The skill relies on Windows computer-use capabilities to operate Bambu Studio; the Markdown workflow is usable manually too.
 
@@ -54,4 +54,4 @@ Your own skill installation is already available as `$bambu-a1-print-quality`. T
 
 This repository contains original notes and workflow instructions. Model files and full 3MF projects stay local unless their redistribution rights and contents have been checked. Settings snapshots are **not importable Bambu Studio presets**. Preparing a project does not start a print.
 
-This is an independent personal project, not an official Bambu Lab repository. Resource descriptions are summaries; linked documentation belongs to its respective authors.
+This is an independent personal project, not an official repository of any slicer or printer manufacturer. Resource descriptions are summaries; linked documentation belongs to its respective authors.
