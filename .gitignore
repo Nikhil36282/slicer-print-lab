@@ -1,0 +1,22 @@
+# Geometry and full slicer projects stay local by default.
+*.stl
+*.STL
+*.3mf
+*.3MF
+*.obj
+*.step
+*.stp
+*.gcode
+*.gcode.3mf
+*.zip
+
+# Private/runtime data
+.env
+.env.*
+credentials*
+*.log
+work/
+local/
+__pycache__/
+.DS_Store
+Thumbs.db

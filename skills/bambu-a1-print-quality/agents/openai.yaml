@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bambu A1 Print Quality"
+  short_description: "Prepare complex A1 models and verify sliced supports"
+  default_prompt: "Use $bambu-a1-print-quality to prepare this model in Bambu Studio for a good quality A1 print, inspect the slice, and save a 3MF project."
+policy:
+  allow_implicit_invocation: true
