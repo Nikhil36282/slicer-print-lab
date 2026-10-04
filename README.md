@@ -18,7 +18,11 @@ A growing notebook for 3D printing across slicers and printers. It brings togeth
 4. After printing, use the [print record template](templates/print-record.md) to capture what worked and what needs changing.
 5. Commit the record and relevant settings. Promote a result to **print-verified** only after inspecting the physical print.
 
-## Current notebook
+## Studio and content
+
+Use the [studio and content workflow](docs/studio-content-workflow.md) to connect a private model catalogue, selected Trello tasks and phone reminders. Start with the [model project](templates/model-project-card.md) and [content post](templates/content-post-card.md) templates. Keep live inventory, board links, media and results private; this repository stores reusable instructions only.
+
+## Print notebook
 
 | Record | Setup | Evidence | Outcome |
 |---|---|---|---|
